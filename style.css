@@ -16,6 +16,11 @@ button {
     margin: 25px;
 }
 
+img  {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
 button:hover {
     background-color: white;
     border: #3882F6;
@@ -42,6 +47,7 @@ button:hover {
     flex: 1;
     gap: 100px;
     padding:75px;
+    flex-wrap: wrap;
 }
 
 .header_text {
@@ -59,3 +65,31 @@ button:hover {
     color: #E5E7EB;
 }
 
+.information_header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
